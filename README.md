@@ -1,22 +1,21 @@
 # XR-Objects
 
-This is the repository that contains the source code for the [XR-Objects website](https://xr-objects.github.io).
+This is the repository that contains the source code for the [XR-Objects website](https://emBARDiment.github.io).
 
 If you find XR-Objects useful for your work, please cite:
 ```
-@inproceedings{Dogan_2024_XRObjects,
-	address = {New York, NY, USA},
-	title = {Augmented Object Intelligence with XR-Objects},
-	isbn = {979-8-4007-0628-8/24/10},
-	url = {https://doi.org/10.1145/3654777.3676379},
-	doi = {10.1145/3654777.3676379},
-	language = {en},
-	booktitle = {Proceedings of the 37th {Annual} {ACM} {Symposium} on {User} {Interface} {Software} and {Technology}},
-	publisher = {Association for Computing Machinery},
-	author = {Dogan, Mustafa Doga and Gonzalez, Eric J and Ahuja, Karan and Du, Ruofei and Colaco, Andrea and Lee, Johnny and Gonzalez-Franco, Mar and Kim, David},
-	month = oct,
-	year = {2024},
-}
+@inproceedings{Bovo_2025_emBARDiment,
+      title = {EmBARDiment: an Embodied AI Agent for Productivity in XR},
+      isbn = {},
+      url = {},
+      doi = {},
+      language = {en},
+      booktitle = {Proceedings of the 32nd IEEE Conference on Virtual Reality and 3D User Interfaces},
+      publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+      author = {Bovo, Riccardo and Gonzalez, Eric J and Ahuja, Karan and Cheng, Li-Te and Gonzalez-Franco, Mar},
+      month = {},
+      year = {2025},
+  }
 ```
 
 # Website License
