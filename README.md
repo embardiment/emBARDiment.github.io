@@ -1,6 +1,6 @@
 # XR-Objects
 
-This is the repository that contains the source code for the [XR-Objects website](https://emBARDiment.github.io).
+This is the repository that contains the source code for the [emBARDiment website](https://emBARDiment.github.io).
 
 If you find XR-Objects useful for your work, please cite:
 ```
