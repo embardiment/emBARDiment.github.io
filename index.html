@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Augmented Object Intelligence with XR-Objects.">
+        content="EmBARDiment: an Embodied AI Agent for Productivity in XR.">
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Augmented Object Intelligence with XR-Objects</title>
+  <title>EmBARDiment: an Embodied AI Agent for Productivity in XR.</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -47,48 +47,59 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">EmBARDiment: an Embodied AI Agent <br>for Productivity in XR</h1>
+          <h1 class="title is-1 publication-title">
+            EmBARDiment: an Embodied AI Agent <br>for Productivity in XR
+          </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://riccardobovo.com/" target="_blank">Riccardo Bovo</a><sup>1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://riccardobovo.com/" target="_blank">Steven Abreu</a><sup>1</sup>,
+              <a href="https://riccardobovo.com/" target="_blank">Steven Abreu</a><sup>1,3</sup>,
             </span>
             <span class="author-block">
               <a href="https://www.ejgonzalez.me/" target="_blank">Eric J. Gonzalez</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://karan-ahuja.com/" target="_blank" >Karan Ahuja</a><sup>1</sup>,
+              <a href="https://karan-ahuja.com/" target="_blank">Karan Ahuja</a><sup>1,4</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.linkedin.com/in/litecheng/" target="_blank" >Li-Te Cheng</a><sup>1</sup>
+              <a href="https://www.linkedin.com/in/litecheng/" target="_blank">Li-Te Cheng</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://margonzalezfranco.github.io/" target="_blank" >Mar Gonzalez-Franco</a><sup>1</sup>
+              <a href="https://margonzalezfranco.github.io/" target="_blank">Mar Gonzalez-Franco</a><sup>1</sup>
             </span>
           </div>
-
+        
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup> Google &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup> Imperial College London</span>
-            <br/>
-            <span class="author-block"><sup>2</sup> Imperial College London</span>
-            <br/>
-
-            <br/><br/>
+            <span class="author-block">
+              <sup>1</sup> Google, USA
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <sup>2</sup> Imperial College London, UK
+            </span>
+            <br />
+            <span class="author-block">
+              <sup>3</sup> University of Groningen, Netherlands
+            </span>
+            <br />
+            <span class="author-block">
+              <sup>4</sup> Northwestern University, USA
+            </span>
+            <br /><br />
             <span class="author-block">
               <a href="https://ieeevr.org/2025/" target="_blank">
                 2025 IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)
               </a>
             </span>
-            
           </div>
+
+        
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="" target="_blank" 
+                <a href="https://arxiv.org/abs/2408.08158" target="_blank" 
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -96,17 +107,17 @@
                   <span>Paper</span>
                 </a>
               </span>
-              <!-- Code Link. -->
+              <!-- Code Link (Coming Soon). -->
               <span class="link-block">
-                <a href="" target="_blank" 
-                   class="external-link button is-normal is-rounded is-dark">
+                <a href="javascript:void(0);" 
+                  class="external-link button is-normal is-rounded is-dark is-disabled" 
+                  style="pointer-events: none; opacity: 0.5; cursor: not-allowed;">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
-                  </a>
+                  <span>Coming Soon</span>
+                </a>
               </span>
-           
             </div>
 
           </div>
@@ -116,35 +127,38 @@
   </div>
 </section>
 
- <!-- Abstract. -->
- <div class="columns is-centered has-text-centered">
-  <div class="column is-four-fifths">
-    <h2 class="title is-3">Abstract</h2>
-    <div class="content has-text-justified">
-      <p>
-        XR devices running chat-bots powered by Large Language Models (LLMs) have the to become always-on agents that enable much better productivity scenarios. Current screen based chat-bots do not take advantage of the the full-suite of natural inputs available in XR, including inward facing sensor data, instead they over-rely on explicit voice or text prompts, sometimes paired with multi-modal data dropped as part of the query. We propose a solution that leverages an attention framework that derives context implicitly from user actions, eye-gaze, and contextual memory within the XR environment. Our work  minimizes the need for engineered explicit prompts, fostering grounded and intuitive interactions that glean user insights for the chat-bot.   
-      </p>
-     
+<!-- Abstract. -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            XR devices running chatbots powered by Large Language Models (LLMs) have the potential to become always-on agents that significantly enhance productivity scenarios. Current screen-based chatbots fail to fully utilize the comprehensive suite of natural inputs available in XR, including inward-facing sensor data. Instead, they over-rely on explicit voice or text prompts, sometimes paired with multi-modal data included in the query. We propose a solution that leverages an attention framework to implicitly derive context from user actions, eye gaze, and contextual memory within the XR environment. Our approach minimizes the need for explicitly engineered prompts, fostering intuitive and grounded interactions that provide deeper user insights for the chatbot.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>
 <!--/ Abstract. -->
+
 
 <!-- Video. -->
 <section class="section">
-  
-  <div class="columns is-centered has-text-centered">
-    <div class="column is-four-fifths" >
-      <h2 class="title is-3">Video</h2>
-     
-        <video id="teaser" autoplay loop playsinline controls height="300px">
-          <source src="./static/videos/IEEEVR_camera_ready.mp4"
-                  type="video/mp4">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Video</h2>
+        <video id="teaser" autoplay loop playsinline controls style="max-width: 100%;">
+          <source src="./static/videos/IEEEVR_camera_ready.mp4" type="video/mp4">
+          Your browser does not support the video tag.
         </video>
-   
+      </div>
     </div>
   </div>
-</section> 
+</section>
 
 <!-- Paper video.
 <section class="hero is-light is-small">
@@ -207,33 +221,28 @@
 </div>
 </section>
 -->
-    <!-- 
 <section class="section">
-  
   <div class="container is-max-desktop">
-
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Implementation</h2>
-
         <div class="content has-text-justified">
           
-          <p>Implementation short description here.</p>
-        
-          <img poster="" id="fullbody" src="./static/images/pipeline_new.png">
+          <p><strong>EmBARDiment:</strong> A practical XR application that integrates speech-to-text, text-to-speech, gaze-driven saliency, and LLMs for enabling a voice-interactive AI agent within a multi-window XR environment. Developed in Unity and deployed on the Oculus Quest Pro, EmBARDiment incorporates an embodied AI agent to enhance user interaction through verbal and non-verbal cues, utilizing APIs like ChatGPT-4 and Google Cloud Text-to-Speech for immersive experiences.</p>
+          
+          <p><strong>Multimodal Interaction:</strong> The system supports seamless user interaction by leveraging multiple input and output modalities. Verbal requests are transcribed using Google Speech-to-Text API and processed by LLM APIs for context-aware responses. These are converted into speech and synchronized with the AI agent’s facial animations for an engaging experience. Visual feedback is displayed on UI panels for clarity.</p>
+          
+          <p><strong>Gaze-Driven Contextual Memory:</strong> EmBARDiment extends WindowMirror, capturing and processing window content with the Google Vision API. By correlating text with the user’s eye-tracking data, the system determines focus and maintains a saliency buffer for coherent responses. This dynamic contextual memory, cleared after each user request, enables personalized and relevant interactions grounded in real-time attention.</p>
+          <img poster="" id="fullbody" src="./static/images/pipeline.svg"> 
         </div>
       </div>
     </div>
-
-
   </div>
-</section>-->
+</section>
+
 
 
 <section class="section" id="BibTeX">
-
-  
-
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@inproceedings{Bovo_2025_emBARDiment,
