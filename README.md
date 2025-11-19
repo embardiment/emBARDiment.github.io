@@ -1,8 +1,8 @@
 # EmBARDiment
 
-This is the repository that contains the source code for the [emBARDiment website](https://emBARDiment.github.io).
+This is the repository that contains the paper and source code for the [emBARDiment website](https://emBARDiment.github.io).
 
-If you find XR-Objects useful for your work, please cite:
+If you find EmBARDiment useful for your work, please cite:
 ```
 @inproceedings{bovo2025embardiment,
   title={Embardiment: an embodied ai agent for productivity in xr},
