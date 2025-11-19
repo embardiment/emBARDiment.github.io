@@ -6,7 +6,8 @@ If you find XR-Objects useful for your work, please cite:
 ```
 @inproceedings{bovo2025embardiment,
   title={Embardiment: an embodied ai agent for productivity in xr},
-  author={Bovo, Riccardo and Abreu, Steven and Ahuja, Karan and Gonzalez, Eric J and Cheng, Li-Te and Gonzalez-Franco, Mar},
+  author={Bovo, Riccardo and Abreu, Steven and Ahuja, Karan and Gonzalez, Eric J
+and Cheng, Li-Te and Gonzalez-Franco, Mar},
   booktitle={2025 IEEE Conference Virtual Reality and 3D User Interfaces (VR)},
   pages={708--717},
   year={2025},
